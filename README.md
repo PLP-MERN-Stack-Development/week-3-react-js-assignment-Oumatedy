@@ -1,71 +1,66 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=19843999&assignment_repo_type=AssignmentRepo)
-# React.js and Tailwind CSS Assignment
+# PLP Task Manager React App
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+A fully functional, responsive React application featuring:
+- Multiple reusable components
+- State management with React hooks
+- API integration with loading, error handling, pagination, and search
+- Responsive design using Tailwind CSS
+- Light/Dark theme switcher
 
-## Assignment Overview
+---
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+## Features
+
+- **Task Manager:** Add, complete, and delete tasks with local persistence.
+- **API Integration:** Fetches todos from [JSONPlaceholder](https://jsonplaceholder.typicode.com/todos), with search and pagination.
+- **Responsive Design:** Works on mobile, tablet, and desktop.
+- **Theme Switcher:** Toggle between light and dark mode.
+- **Modern UI:** Built with Tailwind CSS utility classes.
+
+---
 
 ## Getting Started
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v14 or newer recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/your-username/plp-task-manager.git
+   cd plp-task-manager
    ```
+
+2. **Install dependencies:**
+   ```sh
    npm install
+   # or
+   yarn install
    ```
-4. Start the development server:
-   ```
+
+3. **Start the development server:**
+   ```sh
    npm run dev
+   # or
+   yarn dev
    ```
 
-## Files Included
+4. **Open your browser:**
+   - Visit [http://localhost:5173](http://localhost:5173) (or the port shown in your terminal).
 
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
+---
 
-## Requirements
+## Screenshots
 
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
+| Desktop View | Mobile View |
+|--------------|-------------|
+| ![Desktop Screenshot](./images/screenshot1.png) | ![Mobile Screenshot](./images/screenshot2.png) |
 
-## Project Structure
+---
 
-```
-src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
-```
+## Live Demo
 
-## Submission
-
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
-
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
-
-## Resources
-
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
+[View the live demo here](https://your-live-demo-link.com)
