@@ -63,4 +63,4 @@ A fully functional, responsive React application featuring:
 
 ## Live Demo
 
-[View the live demo here](https://your-live-demo-link.com)
+[View the live demo here](https://task-manager-red-one.vercel.app/)
